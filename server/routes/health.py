@@ -14,7 +14,7 @@ def answer():
     return jsonify(answer)
     @app.route('/answer/<number>')
 
-@app.route('/answer/<number>')    
+    @app.route('/answer/<number>')
 def CheckAnswerToLifeTheUniverseAndEverything(number):
     content = {
         'statement': 'The Answer to Life the Universe and Everything is ' + number + '.',
